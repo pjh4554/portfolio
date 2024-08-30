@@ -1,0 +1,67 @@
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap; /* 플렉스 아이템이 줄 바꿈되도록 설정 */
+  justify-content: center;
+  gap: 40px; /* 각 카테고리 사이의 간격 조정 */
+  width: 100%;
+  max-width: 1200px; /* 컨테이너의 최대 너비를 설정 */
+}
+
+.skills-category {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(
+    33.33% - 40px
+  ); /* 한 줄에 3개씩 배치되도록 너비를 설정, gap과의 균형을 맞추기 위해 약간의 보정을 함 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box; /* 패딩과 박스 모델을 포함하여 크기를 조정 */
+}
+
+.category-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ff5733;
+  text-align: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.skills-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.skills-images img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+}

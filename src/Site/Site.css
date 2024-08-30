@@ -1,0 +1,22 @@
+.site-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.site-item {
+  width: 100px;
+  text-align: center;
+}
+
+.site-icon {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.site-icon:hover {
+  transform: scale(1.1);
+}

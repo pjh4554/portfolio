@@ -7,9 +7,9 @@ import CSS from "./Icon/CSS.svg";
 import JavaScript from "./Icon/JavaScript.svg";
 import ReactIcon from "./Icon/React-Light.svg";
 import TypeScript from "./Icon/TypeScript.svg";
-import TailwindCSS from "./Icon/TailwindCSS-Light.svg";
+// import TailwindCSS from "./Icon/TailwindCSS-Light.svg";
 import JQuery from "./Icon/JQuery.svg";
-import ReactNative from "./Icon/react-native-1.svg";
+// import ReactNative from "./Icon/react-native-1.svg";
 
 // Backend Icons
 import NodeJS from "./Icon/NodeJS-Light.svg";
@@ -17,7 +17,7 @@ import Spring from "./Icon/Spring-Light.svg";
 import Java from "./Icon/Java-Light.svg";
 import SpringBoot from "./Icon/icons8-봄-로고.svg";
 import FastAPI from "./Icon/FastAPI.svg";
-import Django from "./Icon/Django.svg";
+// import Django from "./Icon/Django.svg";
 import Python from "./Icon/Python-Light.svg";
 import Hibernate from "./Icon/Hibernate-Light.svg";
 
@@ -35,7 +35,7 @@ import Gradle from "./Icon/Gradle-Light.svg";
 import VSCode from "./Icon/VSCode-Light.svg";
 import IntelliJ from "./Icon/intellij-idea-svgrepo-com.svg";
 import Eclipse from "./Icon/Eclipse-Light.svg";
-import Figma from "./Icon/Figma.svg";
+// import Figma from "./Icon/Figma.svg";
 
 // Version Control Icons
 import GitHub from "./Icon/Github-Light.svg";
@@ -44,7 +44,7 @@ import Discord from "./Icon/Discord.svg";
 function Skills() {
   return (
     <div className="skills-container">
-      <h2 className="title">Skills</h2>
+      <h2 className="title">사용 기술</h2>
       <div className="skills-content">
         {/* Frontend */}
         <div className="skills-category">
@@ -55,9 +55,9 @@ function Skills() {
             <img src={JavaScript} alt="JavaScript" />
             <img src={ReactIcon} alt="React" />
             <img src={TypeScript} alt="TypeScript" />
-            <img src={TailwindCSS} alt="TailwindCSS" />
+            {/* <img src={TailwindCSS} alt="TailwindCSS" /> */}
             <img src={JQuery} alt="JQuery" />
-            <img src={ReactNative} alt="React Native" />
+            {/* <img src={ReactNative} alt="React Native" /> */}
           </div>
         </div>
 
@@ -70,7 +70,7 @@ function Skills() {
             <img src={SpringBoot} alt="SpringBoot" />
             <img src={Java} alt="Java" />
             <img src={FastAPI} alt="FastAPI" />
-            <img src={Django} alt="Django" />
+            {/* <img src={Django} alt="Django" /> */}
             <img src={Python} alt="Python" />
             <img src={Hibernate} alt="Hibernate" />
           </div>
@@ -103,7 +103,7 @@ function Skills() {
             <img src={VSCode} alt="VSCode" />
             <img src={IntelliJ} alt="IntelliJ" />
             <img src={Eclipse} alt="Eclipse" />
-            <img src={Figma} alt="Figma" />
+            {/* <img src={Figma} alt="Figma" /> */}
           </div>
         </div>
 

@@ -1,43 +1,50 @@
-html {
-  scroll-behavior: smooth;
+@font-face {
+  font-family: "SCDream1";
+  src: url("./fonts/SCDream1.otf") format("opentype");
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  height: 100%;
+@font-face {
+  font-family: "SCDream2";
+  src: url("./fonts/SCDream2.otf") format("opentype");
 }
 
-.App {
-  scroll-behavior: smooth;
+@font-face {
+  font-family: "SCDream3";
+  src: url("./fonts/SCDream3.otf") format("opentype");
 }
 
-.introduction {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  color: white;
-  padding: 20px;
-  box-sizing: border-box;
+@font-face {
+  font-family: "SCDream4";
+  src: url("./fonts/SCDream4.otf") format("opentype");
 }
 
-.introduction {
-  background-color: #f1f1f1;
+@font-face {
+  font-family: "SCDream5";
+  src: url("./fonts/SCDream5.otf") format("opentype");
 }
 
-.skills {
-  background-color: #d6d5d5;
+@font-face {
+  font-family: "SCDream6";
+  src: url("./fonts/SCDream6.otf") format("opentype");
 }
 
-.projects {
-  background-color: #c0bfbf;
+@font-face {
+  font-family: "SCDream7";
+  src: url("./fonts/SCDream7.otf") format("opentype");
 }
 
-.sites {
-  background-color: #fcfbfb;
+@font-face {
+  font-family: "SCDream8";
+  src: url("./fonts/SCDream8.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SCDream9";
+  src: url("./fonts/SCDream9.otf") format("opentype");
+}
+@font-face {
+  font-family: "YoonGothic";
+  src: url("./fonts/윤고딕320.ttf") format("truetype");
 }
 
 @font-face {
@@ -45,9 +52,98 @@ body {
   src: url("./fonts/Jalnan2TTF.ttf") format("truetype");
 }
 
-.title {
-  font-family: "Jalnan", sans-serif;
-  font-size: 2.5rem;
-  margin-bottom: 40px;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "YoonGothic", sans-serif;
   color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  scroll-behavior: smooth;
+}
+
+.home {
+  height: 100vh;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  padding: 60px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.introduction {
+  background-color: #dff9f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 180px 20px;
+  text-align: center;
+}
+
+.skills {
+  background-color: #f3e5f5;
+  padding: 180px 20px;
+  text-align: center;
+}
+
+.projects {
+  background-color: #fff8e1;
+  padding: 180px 20px;
+  text-align: center;
+}
+.site {
+  background-color: #fff8e1;
+}
+.title {
+  font-family: "SCDream8", sans-serif;
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+}
+h1 {
+  font-family: "SCDream9", sans-serif;
+  font-size: 36pt;
+}
+h2 {
+  font-family: "SCDream8", sans-serif;
+  font-size: 50px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+h3 {
+  font-family: "SCDream7", sans-serif;
+  font-size: 22px;
+  margin: 25px 0 5px;
+  color: #555;
+}
+
+p {
+  font-family: "SCDream3", sans-serif;
+  font-size: 14pt;
+  line-height: 1.5;
+  margin: 0 0 0px;
+  color: #555;
+  text-indent: 15px;
+}
+
+li {
+  font-family: "SCDream3", sans-serif;
+  font-size: 14pt;
+  line-height: 1.5;
+  margin: 0 0 0px;
+  color: #555;
+}
+
+.project-date {
+  font-family: "SCDream4", sans-serif;
+  font-size: 15px;
+  color: #999;
 }

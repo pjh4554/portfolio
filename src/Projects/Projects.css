@@ -1,23 +1,34 @@
 .projects-section {
-  padding: 40px 20px;
-  text-align: center;
+  text-align: left;
 }
+
 .project-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 80px auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #e0f7fa;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 80%;
   max-width: 1200px;
 }
 
+.project-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-date {
+  margin-bottom: 20px;
+}
+
 .project-content {
   display: flex;
   width: 100%;
+  margin: 40px;
 }
 
 .project-left,
@@ -40,8 +51,9 @@
 
 .project-image {
   width: 500px;
-  height: 400px;
+  height: 800px;
   object-fit: contain;
+  object-position: center;
   background-color: #f0f0f0;
 }
 
@@ -68,25 +80,37 @@
   justify-content: space-between;
 }
 
-.project-buttons {
+.icon-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
-  margin-top: 20px;
 }
 
-.site-button,
-.github-button,
-.detail-button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #007bff;
-  color: white;
+.icon-image {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
 }
 
-.site-button:hover,
-.github-button:hover,
-.detail-button:hover {
-  background-color: #e71046;
+.image-counter {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: -25px;
+  width: 100%;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #007acc;
+  transition: color 0.3s;
+}
+
+.github-link:hover {
+  color: #005f99;
 }
